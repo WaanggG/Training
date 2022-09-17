@@ -7,7 +7,7 @@ print(f"{row1}\n{row2}\n{row3}\n")
 position = input("Where do you want to put the treasure? ")
 
 horizonal = int(position[0])
- vertical = int(position[1])
+vertical = int(position[1])
 
 selected_row = map[vertical - 1]
 selected_row[horizonal - 1] = "X"
